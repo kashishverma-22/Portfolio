@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Portfolio</title>
+  <!-- Bootstrap 5 CSS (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome Icons (optional but nice) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts: Poppins + Inter -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <!-- Custom CSS file (external) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNavbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Kashish</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#articles">Articles</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="hero" class="hero-section d-flex align-items-center">
+    <div class="container text-center text-lg-start">
+      <div class="row align-items-center">
+        <div class="col-lg-7 hero-content">
+          <h1 class="hero-title display-4 fw-bold">Hi, I'm <span class="highlight">Kashish</span></h1>
+          <p class="hero-subtitle mt-3">Frontend Web Developer <br> I Build Fast & Responsive Websites using Html, Css,
+            JavaScript, Bootstrap and React Js</p>
+          <div class="hero-buttons mt-4">
+            <a href="#projects" class="btn btn-primary me-3">View Projects</a>
+            <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+          </div>
+        </div>
+        <div class="col-lg-5 hero-graphic text-center mt-5 mt-lg-0">
+          <div class="Profile-image">
+            <img src="image/me.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section id="about" class="about-section py-5">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <div class="underline"></div>
+      </div>
+      <div class="row align-items-center g-5">
+        <div class="col-md-6 about-text">
+          <h4>Hi, I'm Kashish, a Frontend Web Developer.</h4>
+          <p>I create modern, responsive, and user-friendly websites that provide a smooth experience across all
+            devices. I enjoy turning ideas into interactive web applications with clean code and attractive designs.</p>
+          <p>Currently, I am focused on improving my React JS skills and building real-world projects to deliver
+            high-quality solutions for clients and businesses.</p>
+          <div class="skills mt-4">
+            <span class="badge bg-dark me-2 mb-2">HTML5</span>
+            <span class="badge bg-dark me-2 mb-2">CSS3</span>
+            <span class="badge bg-dark me-2 mb-2">Bootstrap5</span>
+            <span class="badge bg-dark me-2 mb-2">JAVASCRIPT ES6+</span>
+            <span class="badge bg-dark me-2 mb-2">REACT JS</span>
+            <span class="badge bg-dark me-2 mb-2">RESPONSIVE DESIGN</span>
+            <span class="badge bg-dark me-2 mb-2">GIT & GITHUB</span>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <div class="about-illustration">
+            <i class="fas fa-laptop-code fa-6x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES SECTION ==================== -->
+
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">
+        What I <span>Offer</span>
+      </h2>
+      <div class="underline"></div><br>
+
+      <p class="section-subtitle">
+        Helping businesses and individuals build modern,
+        responsive and user-friendly websites.
+      </p>
+
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="icon"><i class="fas fa-desktop"></i></div>
+          <h3>Frontend Development</h3>
+          <p>
+            Modern and responsive websites using HTML, CSS,
+            Bootstrap, JavaScript and React JS.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon"><i class="fas fa-mobile-screen-button"></i></div>
+          <h3>Responsive Design</h3>
+          <p>
+            Websites that work perfectly on desktop,
+            tablet and mobile devices.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon"><i class="fas fa-code"></i></div>
+          <h3>React JS Development</h3>
+          <p>
+            Fast and interactive web applications
+            built with React JS.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon"><i class="fas fa-rocket"></i></div>
+          <h3>Landing Page Design</h3>
+          <p>
+            Attractive landing pages for startups,
+            businesses and personal brands.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon"><i class="fas fa-pencil-ruler"></i></div>
+          <h3>UI/UX Design</h3>
+          <p>
+            Creating clean, user-friendly and visually appealing
+            interfaces that enhance user experience and engagement.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="icon"><i class="fas fa-briefcase"></i></div>
+          <h3>Portfolio Websites</h3>
+          <p>
+            Professional portfolio websites for
+            students and freelancers.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ==================== PROJECTS SECTION ==================== -->
+  <section id="projects" class="projects-section py-5">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+        <div class="underline"></div>
+        <h3 style="font-size: 1.2rem; margin-top: 2rem; color: #787575;">A showcase of the projects I have worked on,
+          <br>highlighting my skills and experience in various technologies
+        </h3>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card rounded-4 overflow-hidden shadow">
+            <div>
+              <img src="image/spotify.jpeg">
+            </div>
+            <div class="p-3 bg-white">
+              <h4>Spotify Clone</h4>
+              <p>Built a responsive Spotify clone using HTML,CSS and JavaScript. Focused on modern UI design. </p>
+              <div class="hero-btn mt-4">
+                <a href="https://kashishverma-22.github.io/spotify_clone/" class="btn btn-primary me-3">Live Demo</a>
+                <a href="https://github.com/kashishverma-22/spotify_clone" class="btn btn-outline-light">github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card rounded-4 overflow-hidden shadow">
+            <div>
+              <img src="image/coffee.jpeg">
+            </div>
+            <div class="p-3 bg-white">
+              <h4>Coffee Shop</h4>
+              <p>Designed and developed a responsive Coffee Shop website using HTML, CSS, and Bootstrap, featuring an
+                attractive layout,modern user interface. </p>
+              <div class="hero-btn mt-4">
+                <a href="https://kashishverma-22.github.io/coffeeProject/" class="btn btn-primary me-3">Live Demo</a>
+                <a href="https://github.com/kashishverma-22/coffeeProject" class="btn btn-outline-light">github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="project-card rounded-4 overflow-hidden shadow">
+            <div>
+              <img src="image/calculator.jpeg">
+            </div>
+            <div class="p-3 bg-white">
+              <h4>Calculator App </h4>
+              <p>A responsive calculator web application built using HTML, CSS, and JavaScript. It performs basic
+                arithmetic operations with a clean UI and real-time result display.</p>
+              <div class="hero-btn mt-4">
+                <a href="https://kashishverma-22.github.io/calculator/" class="btn btn-primary me-3">Live Demo</a>
+                <a href="https://github.com/kashishverma-22/calculator" class="btn btn-outline-light">github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ARTICLES SECTION ==================== -->
+  <section class="articles" id="articles">
+    <h2 class="section-title">
+      Latest <span>Articles</span>
+    </h2>
+    <div class="underline"></div><br>
+    <div class="articles-grid">
+      <div class="article-card">
+
+        <div class="article-content">
+          <span>Web Development</span>
+          <h3>Top 5 HTML & CSS Tips for Beginners</h3>
+          <p>
+            Learn essential HTML and CSS techniques to build
+            responsive and modern websites.
+          </p>
+          <a href="#">Read More →</a>
+        </div>
+      </div>
+
+      <div class="article-card">
+
+        <div class="article-content">
+          <span>JavaScript</span>
+          <h3>JavaScript Concepts Every Developer Should Know</h3>
+          <p>
+            Explore important JavaScript concepts including
+            DOM, events and ES6 features.
+          </p>
+          <a href="#">Read More →</a>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-content">
+          <span>React JS</span>
+          <h3>Building Modern Apps with React JS</h3>
+          <p>
+            Discover how React JS helps create fast,
+            scalable and interactive web applications.
+          </p>
+          <a href="#">Read More →</a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- ==================== CONTACT SECTION ==================== -->
+  <section id="contact" class="contact-section py-5">
+    <div class="container">
+      <div class="section-header text-center mb-5">
+        <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+        <div class="underline"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <form id="contactForm" class="contact-form p-4 p-md-5 rounded-4 shadow-sm bg-white">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="hello@gmail.com" required>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4" id="message"
+                  placeholder="Tell me about your project..."></textarea>
+              </div>
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary px-5 py-2 mt-2">Send Message <i
+                    class="fas fa-paper-plane ms-2"></i></button>
+              </div>
+              <div id="formFeedback" class="text-center mt-3"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer-section pt-5 pb-4">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-5">
+          <h5 class="fw-bold">Kashish</h5>
+          <p class="small">Crafting digital stories with code and creativity. Let's connect and build amazing web
+            experiences.</p>
+          <div class="social-icons mt-3">
+            <a href="https://github.com/kashishverma-22"><i class="fab fa-github"></i></a>
+            <a
+              href="https://www.linkedin.com/in/kashish-verma-166187410?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/share/1Tb6xsPccb/"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="list-unstyled">
+            <li><a href="#hero" class="text-decoration-none">Home</a></li>
+            <li><a href="#about" class="text-decoration-none">About</a></li>
+            <li><a href="#services" class="text-decoration-none">Services</a></li>
+            <li><a href="#projects" class="text-decoration-none">Projects</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h6>Contact Info</h6>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-envelope me-2"></i>kashish.ver106@gmail.com</li>
+            <li><i class="fas fa-phone-alt me-2"></i> +91 82093 07391</li>
+            <li><i class="fas fa-map-marker-alt me-2"></i> Sri Ganganagar, India</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="mt-4 mb-3">
+      <div class="text-center small copyright">© 2026 Kashish— All rights reserved | Designed & Developed with HTML, CSS
+        & JavaScript.
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <!-- Custom external JS file (handles animations + contact form) -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
